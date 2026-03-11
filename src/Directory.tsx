@@ -59,7 +59,7 @@ export function Directory() {
         <AccessibilityBar />
         <div className="header-top">
           <div>
-            <h1>Chadwit NYC</h1>
+            <h1>OptCause NYC</h1>
             <p className="tagline">
               Curated nonprofit & community organizations — volunteers, students, newcomers.
             </p>
@@ -76,7 +76,7 @@ export function Directory() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Contact Chadwit
+              Contact Optcause
             </a>
           </nav>
         </div>
@@ -113,7 +113,7 @@ export function Directory() {
         </p>
         {filtered.length > 0 && filtered.length < 6 && (
           <p className="section-desc section-desc-growing">
-            Chadwit is a curated list we’re still growing. Fewer results here doesn’t mean there aren’t great orgs in your area — we’re adding more over time.
+            Optcause is a curated list we’re still growing. Fewer results here doesn’t mean there aren’t great orgs in your area — we’re adding more over time.
           </p>
         )}
         {listing.length === 0 ? (

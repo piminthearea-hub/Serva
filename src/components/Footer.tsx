@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="site-footer" role="contentinfo">
       <div className="footer-inner">
-        <p className="footer-brand">Optcause</p>
+        <p className="footer-brand">OptCause NYC</p>
         <nav className="footer-nav" aria-label="Footer">
           <Link to="/about">About</Link>
           <a href="#how-to-use-heading">How to use</a>
