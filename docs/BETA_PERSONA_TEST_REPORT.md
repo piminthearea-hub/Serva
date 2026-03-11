@@ -1,4 +1,4 @@
-# Chadwit Beta Persona Test Report
+# Optcause Beta Persona Test Report
 
 **Date:** 2026-03-10  
 **Method:** Code and data audit + persona walkthrough against current implementation. App run at `http://localhost:5186`; select external links verified via fetch.  
@@ -18,7 +18,7 @@ The test confirms that **all three personas hit their predicted failure modes** 
 |------|--------|
 | **Directory** | Implemented; filters, Top recommended (max 2), listing, How to use, FAQ, Contact CTA, Disclaimer, Footer |
 | **Organization cards** | Show: name (linked to website), typeLabel, mission, **category, borough, statusLabel, confidence**. Do **not** show: **lastChecked** |
-| **Resources** | Not in current nav or routes (`App.tsx` has `/`, `/terms`, `/privacy` only). Chadwit 2 doc references `/resources` — not implemented in this build |
+| **Resources** | Not in current nav or routes (`App.tsx` has `/`, `/terms`, `/privacy` only). Optcause 2 doc references `/resources` — not implemented in this build |
 | **About / How we curate** | **Not present**. No About link in header or footer |
 | **Contact** | External Google Form; no on-page text like “We review submissions regularly” |
 | **Data** | Static `organizations.ts`; 50+ orgs; Brooklyn has 3 (Mixteca, Green City Force, Sean Casey); NYC-wide ~20; `lastChecked` present in data but **not rendered on cards** |
@@ -29,7 +29,7 @@ The test confirms that **all three personas hit their predicted failure modes** 
 
 ### Scenario run
 
-1. **Entry:** Colleague link → Directory. Nav: “Share a community event”, “How to use”, “FAQ”, “Contact Chadwit”. No “Resources” (route not in app).
+1. **Entry:** Colleague link → Directory. Nav: “Share a community event”, “How to use”, “FAQ”, “Contact Optcause”. No “Resources” (route not in app).
 2. **Filters:** Category = “Immigrant / Community Support” (dropdown uses `org.category`), Borough = “Brooklyn”.
 3. **Result:**  
    - **Featured (Top recommended):** ROCC NYC and NICE are `featured: true` but **borough ROCC = Manhattan, NICE = Queens**. With Borough = Brooklyn they are **excluded** from the filtered set. So **0 featured** for Brooklyn + this category.  
@@ -60,9 +60,9 @@ The test confirms that **all three personas hit their predicted failure modes** 
 ### Scenario run
 
 1. **Entry:** Opens Directory; looks for About / Who we are. **None.** Header/footer: no About, no “How we curate.”
-2. **Reads How to use + FAQ:** Sees “curated directory,” confidence bullet (“how up-to-date and verifiable”), “we don’t guarantee” in FAQ. **No** “who runs Chadwit,” “how often we update,” or “how we choose orgs” outside FAQ “How are organizations selected?” (generic “curated list… reviewed for clarity”).
+2. **Reads How to use + FAQ:** Sees “curated directory,” confidence bullet (“how up-to-date and verifiable”), “we don’t guarantee” in FAQ. **No** “who runs Optcause,” “how often we update,” or “how we choose orgs” outside FAQ “How are organizations selected?” (generic “curated list… reviewed for clarity”).
 3. **Cards:** Looks for “last checked.” **Not on card.** Only in data; not in UI. **Trust signal missing.**
-4. **Contact:** Clicks Contact Chadwit → Google Form. **No** “We review submissions regularly” or “We aim to respond to corrections within X days” on the Directory page or (from code) on the form itself.
+4. **Contact:** Clicks Contact Optcause → Google Form. **No** “We review submissions regularly” or “We aim to respond to corrections within X days” on the Directory page or (from code) on the form itself.
 5. **Resources:** Clicks nav — **no Resources link** in current implementation. (If she had a link to `/resources`, route is not in `App.tsx`; would 404.) So “Coming soon” concern from persona is **not testable** in this build; **no Resources page.**
 6. **Terms / Privacy:** Routes exist (`/terms`, `/privacy`). Footer likely links them; contact is same form; **no stated response time or how suggestions are processed.**
 
@@ -88,7 +88,7 @@ The test confirms that **all three personas hit their predicted failure modes** 
 3. **Labels:** On cards sees **statusLabel** (e.g. “Active”) and **confidence** (e.g. “high”). **No** one-line explanation next to the list or on the card. “Include low-confidence” sounds negative; **no** tooltip or short explainer. To understand “Checked” or “Opportunity Open” they must open FAQ.
 4. **Thin list:** If they pick Manhattan + a narrow category, list can be short. **No** “This list is curated and we’re adding more” or similar. Risk of “am I in the wrong place?”
 5. **Click path:** If they click **ROCC NYC → Volunteer**, they go to **contact** page (generic “Get involved”). If they click **Mixteca → Volunteer**, they get a **real volunteer page** (verified). So **first click can be good or bad** depending on org; **one bad experience** is enough for this persona to disengage.
-6. **FAQ tone:** “Does Chadwit guarantee…?” → “No. Always confirm… directly with the organization.” **Honest but can feel scary** to a fragile newcomer without a friendly lead-in.
+6. **FAQ tone:** “Does Optcause guarantee…?” → “No. Always confirm… directly with the organization.” **Honest but can feel scary** to a fragile newcomer without a friendly lead-in.
 
 ### Verdict
 
@@ -132,7 +132,7 @@ The test confirms that **all three personas hit their predicted failure modes** 
 
 1. **Surface “last checked”** on every org card (e.g. “Verified [date]” or “Last checked [date]”). Use existing `lastChecked` from data.
 2. **Add one-line explainer** for confidence and status **above or beside the first list** (and optionally next to “Include low-confidence”): e.g. “Confidence = how recently we verified; status = active / recently checked / seeking volunteers.”
-3. **Add “curated and growing”** when `listing.length` (or `filtered.length`) is below a threshold (e.g. &lt; 6): e.g. “Chadwit is a curated list we’re still growing. Fewer results here doesn’t mean there aren’t great orgs in your area.”
+3. **Add “curated and growing”** when `listing.length` (or `filtered.length`) is below a threshold (e.g. &lt; 6): e.g. “Optcause is a curated list we’re still growing. Fewer results here doesn’t mean there aren’t great orgs in your area.”
 4. **Add minimal About / How we curate:** Who maintains the list, that it’s curated and not comprehensive, that listings are reviewed periodically, that suggestions are welcome. Link from header or footer.
 5. **Set contact expectation:** One line near Contact link or on form: “We review submissions regularly and prioritize corrections.”
 6. **Audit Volunteer links:** Prefer linking **Volunteer** to a dedicated volunteer/opportunity page. For ROCC, consider replacing `contact` with a volunteer-specific URL if one exists, or clarify in listing that “Contact” is for general inquiries.

@@ -8,9 +8,9 @@ const faqItems: {
   id?: string;
 }[] = [
   {
-    question: "What is Chadwit?",
+    question: "What is Optcause?",
     answer:
-      "Chadwit is a curated directory of nonprofit and community organizations in New York City. It helps volunteers, students, and newcomers find organizations with clear pathways to get involved — not a complete or official registry of all nonprofits.",
+      "Optcause is a curated directory of nonprofit and community organizations in New York City. It helps volunteers, students, and newcomers find organizations with clear pathways to get involved — not a complete or official registry of all nonprofits.",
   },
   {
     question: "How are organizations selected?",
@@ -28,9 +28,9 @@ const faqItems: {
       "Featured (“Top recommended”) organizations are a small subset chosen for having clear volunteer or opportunity pathways and strong fit for the directory’s audience. They’re highlighted for quick discovery, not as a ranking of quality.",
   },
   {
-    question: "Why doesn’t Chadwit show every nonprofit?",
+    question: "Why doesn’t Optcause show every nonprofit?",
     answer:
-      "Chadwit is curated, not comprehensive. It focuses on organizations that are a good fit for volunteers, students, and newcomers, with information that has been reviewed for clarity and usefulness. Many other nonprofits exist; this directory is a starting point.",
+      "Optcause is curated, not comprehensive. It focuses on organizations that are a good fit for volunteers, students, and newcomers, with information that has been reviewed for clarity and usefulness. Many other nonprofits exist; this directory is a starting point.",
   },
   {
     question: "What do Active / Checked / Opportunity Open mean?",
@@ -45,23 +45,23 @@ const faqItems: {
   {
     question: "Can organizations update their listing?",
     answer:
-      "Listings are maintained from public information and the curated list. If an organization would like to correct or update their entry, they can use the Chadwit contact form.",
+      "Listings are maintained from public information and the curated list. If an organization would like to correct or update their entry, they can use the Optcause contact form.",
   },
   {
-    question: "Does Chadwit guarantee legitimacy or availability?",
+    question: "Does Optcause guarantee legitimacy or availability?",
     answer:
-      "No. Chadwit does not verify that organizations are legitimate, solvent, or currently offering opportunities. Always confirm details, eligibility, and availability directly with the organization before committing.",
+      "No. Optcause does not verify that organizations are legitimate, solvent, or currently offering opportunities. Always confirm details, eligibility, and availability directly with the organization before committing.",
   },
   {
     question: "Can users suggest organizations?",
     answer:
-      "Suggestions are welcome. The directory is curated, so not every suggestion will be added, but community input helps improve the list. Use the Chadwit contact form to submit suggestions.",
+      "Suggestions are welcome. The directory is curated, so not every suggestion will be added, but community input helps improve the list. Use the Optcause contact form to submit suggestions.",
   },
   {
     id: "faq-community-event",
     question: "Can I share a community event or project?",
     answer:
-      "Yes. Use the Chadwit contact form and choose General inquiry. Please include the organization name, event or project title, date, location, official link, and a short description.",
+      "Yes. Use the Optcause contact form and choose General inquiry. Please include the organization name, event or project title, date, location, official link, and a short description.",
     answerNode: (
       <>
         <p>
@@ -71,7 +71,7 @@ const faqItems: {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Use the Chadwit contact form
+            Use the Optcause contact form
           </a>{" "}
           and choose General inquiry. Please include the organization name,
           event or project title, date, location, official link, and a short
@@ -120,7 +120,7 @@ export function FAQ() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          use the Chadwit contact form
+          use the Optcause contact form
         </a>
         .
       </p>

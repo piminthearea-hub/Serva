@@ -1,4 +1,4 @@
-# Chadwit NYC — Curated Organization List
+# Optcause NYC — Curated Organization List
 
 **Purpose:** Master list and narrative for the NYC starter set.  
 **Last updated:** 2026-03-05.
@@ -16,7 +16,7 @@
 
 ## A. TOP RECOMMENDED NYC ORGANIZATIONS
 
-Strongest fits for Chadwit: clear NYC presence, active volunteer or program pathways, and verifiable activity. Grouped by priority category.
+Strongest fits for Optcause: clear NYC presence, active volunteer or program pathways, and verifiable activity. Grouped by priority category.
 
 ### Immigrant / Community Support
 - **ROCC NYC** — Hell's Kitchen resource center; direct services (shelter, legal, asylum, Medicaid), mobile pantry, youth soccer. Relies on volunteer translators and general volunteers; strong partner list. *Strong for: newcomers, volunteers, community pathways.*
@@ -152,4 +152,4 @@ The canonical export lives in:
 
 ---
 
-*Chadwit NYC seed data — curated for active pathways: get help, volunteer, join a project, attend a program, build a pathway, connect with a real community.*
+*Optcause NYC seed data — curated for active pathways: get help, volunteer, join a project, attend a program, build a pathway, connect with a real community.*

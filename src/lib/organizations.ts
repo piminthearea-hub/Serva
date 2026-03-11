@@ -1,5 +1,5 @@
 /**
- * Centralized filtering for the Chadwit NYC directory.
+ * Centralized filtering for the Optcause directory.
  * Uses static data from src/data/organizations.ts only.
  * Launch visibility: high/medium confidence + Active/Checked/Opportunity Open unless user overrides.
  */

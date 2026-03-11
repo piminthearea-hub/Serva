@@ -1,4 +1,4 @@
-# Chadwit NYC Directory — Implementation Notes
+# Optcause Directory — Implementation Notes
 
 **Last updated:** 2026-03-06
 

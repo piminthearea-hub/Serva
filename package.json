@@ -1,9 +1,9 @@
 {
-  "name": "chadwit",
+  "name": "optcause",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "description": "Chadwit NYC — Curated nonprofit & community organization directory. Not Opton.",
+  "description": "Optcause — Curated nonprofit & community organization directory.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

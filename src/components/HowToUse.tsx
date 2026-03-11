@@ -3,10 +3,10 @@ import { CONTACT_FORM_URL } from "../lib/constants";
 export function HowToUse() {
   return (
     <section className="info-section how-to-use" aria-labelledby="how-to-use-heading">
-      <h2 id="how-to-use-heading">How to use Chadwit</h2>
+      <h2 id="how-to-use-heading">How to use Optcause</h2>
       <div className="info-content">
         <p>
-          Chadwit is a <strong>curated directory</strong> of nonprofit and community organizations in NYC — for volunteers, students, and newcomers looking for ways to get involved.
+          Optcause is a <strong>curated directory</strong> of nonprofit and community organizations in NYC — for volunteers, students, and newcomers looking for ways to get involved.
         </p>
         <ul>
           <li>
@@ -29,7 +29,7 @@ export function HowToUse() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Use the Chadwit contact form.
+            Use the Optcause contact form.
           </a>
         </p>
       </div>

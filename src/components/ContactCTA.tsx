@@ -2,7 +2,7 @@ import { CONTACT_FORM_URL } from "../lib/constants";
 
 export function ContactCTA() {
   return (
-    <aside className="contact-cta" aria-label="Contact Chadwit">
+    <aside className="contact-cta" aria-label="Contact Optcause">
       <p>
         We review submissions regularly and prioritize corrections. Have a correction, suggestion, or question?{" "}
         <a
@@ -10,7 +10,7 @@ export function ContactCTA() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Use the Chadwit contact form
+          Use the Optcause contact form
         </a>{" "}
         (you can suggest a new org or report a wrong link).
       </p>
@@ -21,7 +21,7 @@ export function ContactCTA() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Use the Chadwit contact form and choose General inquiry.
+          Use the Optcause contact form and choose General inquiry.
         </a>
       </p>
     </aside>

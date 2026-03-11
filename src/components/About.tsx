@@ -9,9 +9,9 @@ export function About() {
         <AccessibilityBar />
         <header className="legal-header">
           <Link to="/" className="legal-back">
-            ← Back to Chadwit NYC
+            ← Back to Optcause
           </Link>
-          <h1>About Chadwit</h1>
+          <h1>About Optcause</h1>
           <p className="legal-intro">
             Who we are and how the directory is built and maintained.
           </p>
@@ -19,9 +19,9 @@ export function About() {
 
         <article className="legal-article">
           <section>
-            <h2>Who runs Chadwit</h2>
+            <h2>Who runs Optcause</h2>
             <p>
-              Chadwit NYC is maintained by a small team (Peem and Yuri). We are not a government agency or a formal nonprofit registry. We built this directory to help volunteers, students, and newcomers find community and nonprofit organizations in New York City with clear pathways to get involved.
+              Optcause is maintained by a small team (Peem and Yuri). We are not a government agency or a formal nonprofit registry. We built this directory to help volunteers, students, and newcomers find community and nonprofit organizations in New York City with clear pathways to get involved.
             </p>
           </section>
 
@@ -40,7 +40,7 @@ export function About() {
             <p>
               We welcome suggestions for new organizations and corrections to existing listings. Use the{" "}
               <a href={CONTACT_FORM_URL} target="_blank" rel="noopener noreferrer">
-                Chadwit contact form
+                Optcause contact form
               </a>{" "}
               to submit them. We review submissions regularly and prioritize corrections so the directory stays as accurate as possible. We can’t add every suggested org, but community input helps us improve.
             </p>

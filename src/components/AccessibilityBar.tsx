@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const THEME_KEY = "chadwit-theme";
-const TEXT_SIZE_KEY = "chadwit-text-size";
+const THEME_KEY = "optcause-theme";
+const TEXT_SIZE_KEY = "optcause-text-size";
 
 export type Theme = "light" | "dark";
 export type TextSize = "normal" | "large" | "x-large";

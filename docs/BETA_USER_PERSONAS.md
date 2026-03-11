@@ -1,6 +1,6 @@
-# Chadwit Beta User Personas
+# Optcause Beta User Personas
 
-Three brutally realistic beta user personas for stress-testing Chadwit NYC: where users lose trust, where onboarding breaks, where the directory feels thin, and where the product fails to beat Google or earn a return visit. Tone: direct, skeptical, actionable.
+Three brutally realistic beta user personas for stress-testing Optcause NYC: where users lose trust, where onboarding breaks, where the directory feels thin, and where the product fails to beat Google or earn a return visit. Tone: direct, skeptical, actionable.
 
 ---
 
@@ -18,7 +18,7 @@ Three brutally realistic beta user personas for stress-testing Chadwit NYC: wher
 ### What they need
 
 - **Problem:** Find 2–3 real volunteer options in Brooklyn (or nearby) with working links and clear next steps.
-- **What they hoped Chadwit would do:** Be a usable list he can filter by area and type, with links that go to real volunteer or contact pages—better than a random Google search.
+- **What they hoped Optcause would do:** Be a usable list he can filter by area and type, with links that go to real volunteer or contact pages—better than a random Google search.
 - **Minimum value to come back:** At least one org he successfully contacts or applies to; links that work; enough Brooklyn results that the product doesn’t feel broken.
 
 ### Behavioral reality
@@ -35,7 +35,7 @@ Three brutally realistic beta user personas for stress-testing Chadwit NYC: wher
 
 ### Trust test
 
-To trust Chadwit he needs:
+To trust Optcause he needs:
 
 - **Visible “last checked” (or “updated”) on every card** so he knows how fresh the data is.
 - **One-line explanation of confidence and status** above or beside the list (no FAQ dive)—e.g. “Confidence = how recently we verified; status = active / seeking volunteers.”
@@ -80,7 +80,7 @@ To trust Chadwit he needs:
 
 ### Product implication
 
-- **What Chadwit must fix to win this user:** Reliable links (audit featured and high-confidence; prefer Volunteer → real opportunity page); visible “last checked” on cards; one-line confidence/status explanation above or beside the list; short “curated and growing” copy when results are few; respond to feedback when possible.
+- **What Optcause must fix to win this user:** Reliable links (audit featured and high-confidence; prefer Volunteer → real opportunity page); visible “last checked” on cards; one-line confidence/status explanation above or beside the list; short “curated and growing” copy when results are few; respond to feedback when possible.
 - **Recoverable?** Only if fixes are visible quickly (e.g. reply to his correction, 1–2 link fixes, clearer copy). Otherwise he’s gone.
 - **Could recommend?** Not in current state. If fixed: possibly—“it’s small but the links work and they have Brooklyn.”
 
@@ -100,7 +100,7 @@ To trust Chadwit he needs:
 ### What they need
 
 - **Problem:** Reliable referral list for immigration/community support in Queens and NYC that she can recommend to clients or colleagues with confidence.
-- **What they hoped Chadwit would do:** Be transparent about who runs it, how orgs are chosen, and how often info is updated—so “curated” and “Top recommended” mean something.
+- **What they hoped Optcause would do:** Be transparent about who runs it, how orgs are chosen, and how often info is updated—so “curated” and “Top recommended” mean something.
 - **Minimum value to come back:** Clear About / How we curate; visible “last checked” and confidence; proof that corrections are reviewed (e.g. response or visible update); no overclaiming.
 
 ### Behavioral reality
@@ -113,7 +113,7 @@ To trust Chadwit he needs:
 
 ### Main failure mode
 
-**“Not enough proof this is maintained—and too opaque.”** No About or “How we curate”; “last checked” is buried in card meta; contact is a Google Form with no “we review submissions” or response-time expectation. “Curated” and “Top recommended” feel unanchored. She can’t recommend Chadwit to clients or colleagues until she knows who’s behind it and that feedback is taken seriously.
+**“Not enough proof this is maintained—and too opaque.”** No About or “How we curate”; “last checked” is buried in card meta; contact is a Google Form with no “we review submissions” or response-time expectation. “Curated” and “Top recommended” feel unanchored. She can’t recommend Optcause to clients or colleagues until she knows who’s behind it and that feedback is taken seriously.
 
 ### Trust test
 
@@ -145,12 +145,12 @@ She needs:
 
 ### Step-by-step failure scenario
 
-1. **Where they came from:** Post in a professional Slack (immigration / nonprofit) about Chadwit. Opens on laptop with low expectations.
+1. **Where they came from:** Post in a professional Slack (immigration / nonprofit) about Optcause. Opens on laptop with low expectations.
 2. **Filters:** Reads How to use and FAQ first. Looks for About—doesn’t find it. Sets Category = Community & Immigrant Support, Borough = Queens, Type = Direct Organization.
-3. **What they clicked:** “Top recommended” and a few cards; looks for “last checked” and confidence—finds them in meta but thinks they should be more prominent. Clicks Website and Volunteer on two orgs; both work. Bookmarks Chadwit but notes limited Queens and opacity.
+3. **What they clicked:** “Top recommended” and a few cards; looks for “last checked” and confidence—finds them in meta but thinks they should be more prominent. Clicks Website and Volunteer on two orgs; both work. Bookmarks Optcause but notes limited Queens and opacity.
 4. **Confusion / disappointment:** No About; “last checked” not prominent; Resources has several “Coming soon” → feels over-promised or understaffed; Terms/Privacy skimmed, contact form has no response-time or “we review” note.
 5. **Feedback:** Submits a small correction (e.g. typo or URL) and a note: “Suggest adding when you last review listings and whether you respond to corrections.” Will check back in a week.
-6. **Why they stayed or left:** Stays as a possible user if she gets a clear, human response and sees a small improvement (e.g. “last checked” more visible or an About sentence). Leaves mentally if no response or generic reply—treats Chadwit as well-intentioned but unmaintained.
+6. **Why they stayed or left:** Stays as a possible user if she gets a clear, human response and sees a small improvement (e.g. “last checked” more visible or an About sentence). Leaves mentally if no response or generic reply—treats Optcause as well-intentioned but unmaintained.
 
 ### What this persona is really testing
 
@@ -162,9 +162,9 @@ She needs:
 
 ### Product implication
 
-- **What Chadwit must fix to win this user:** Minimal About / How we curate; “last checked” visible on every card; one-line contact expectation (“We review submissions regularly” / “We aim to respond to corrections within a few days”); respond to at least one correction with a human reply; trim or relabel “Coming soon” in Resources.
+- **What Optcause must fix to win this user:** Minimal About / How we curate; “last checked” visible on every card; one-line contact expectation (“We review submissions regularly” / “We aim to respond to corrections within a few days”); respond to at least one correction with a human reply; trim or relabel “Coming soon” in Resources.
 - **Recoverable?** Yes. She’s willing to use a small, honest directory that states its limits and keeps data reasonably current. One good response and visible transparency can turn her into a recommender.
-- **Could recommend?** Yes, if transparency and follow-through improve. She may share Chadwit in her professional network with a caveat (“small list, but maintained and clear about what it is”).
+- **Could recommend?** Yes, if transparency and follow-through improve. She may share Optcause in her professional network with a caveat (“small list, but maintained and clear about what it is”).
 
 ---
 
@@ -182,7 +182,7 @@ She needs:
 ### What they need
 
 - **Problem:** Find 1–2 safe, low-commitment ways to get involved (volunteer or newcomer-friendly org) near them or accessible by transit. Needs to feel it’s “for people like me” and that the next step is obvious.
-- **What they hoped Chadwit would do:** Feel like a friendly, clear guide—not another overwhelming or corporate-feeling directory. Simple filters, plain language, and links that lead to a real “how to get involved” page.
+- **What they hoped Optcause would do:** Feel like a friendly, clear guide—not another overwhelming or corporate-feeling directory. Simple filters, plain language, and links that lead to a real “how to get involved” page.
 - **Minimum value to come back:** At least one org that feels relevant and reachable; no scary dead ends or “under construction” pages; labels (confidence, status, recommended) that make sense without a manual.
 
 ### Behavioral reality
@@ -245,13 +245,13 @@ They need:
 
 ### Product implication
 
-- **What Chadwit must fix to win this user:** One-line, plain-language explanation of confidence and status above or beside the list; visible “last checked”; audit Volunteer links so they go to real opportunity pages; short “curated and growing” when results are few; simple About so the product doesn’t feel anonymous; tone in FAQ and disclaimer that’s reassuring, not alarming.
+- **What Optcause must fix to win this user:** One-line, plain-language explanation of confidence and status above or beside the list; visible “last checked”; audit Volunteer links so they go to real opportunity pages; short “curated and growing” when results are few; simple About so the product doesn’t feel anonymous; tone in FAQ and disclaimer that’s reassuring, not alarming.
 - **Recoverable?** Yes, but only if the next touch (e.g. reminder from a community or school) brings them back to a clearer, more reliable experience. They won’t proactively return otherwise.
 - **Could recommend?** Possibly to peers in “new in NYC” or student circles—but only after they’ve had one successful path to an org and the labels make sense. Right now they’re more likely to say “I tried it but got confused” or “one of the links didn’t work.”
 
 ---
 
-# Hard Truths for Chadwit Before Wider Beta
+# Hard Truths for Optcause Before Wider Beta
 
 ## 1. The 5 Biggest Reasons Users May Bounce
 
@@ -295,9 +295,9 @@ They need:
 | **Confidence/status confusion** | Proxy: FAQ opens on “confidence” or “status” questions; or support/contact mentions of “what does Checked mean.” Reduce by surfacing one-line explanation. |
 | **FAQ dependence** | How often users open FAQ or How to use before or during directory use. High dependence for basic concepts = labels and copy need to move into the main flow. |
 | **Contact form submissions** | Volume and type (correction vs. suggestion vs. general). Corrections are leading indicators of link and data quality; respond and track. |
-| **Repeat visit intent** | Post-session or short survey: “Would you use Chadwit again?” or “Would you recommend it?” Correlate with link quality, clarity, and transparency. |
+| **Repeat visit intent** | Post-session or short survey: “Would you use Optcause again?” or “Would you recommend it?” Correlate with link quality, clarity, and transparency. |
 | **Trust score after session** | Simple 1–5 or “How much do you trust that the information here is current and useful?” Track before/after transparency and link-audit fixes. |
 
 ---
 
-*Personas are designed to expose where Chadwit will fail in real use: link quality, thin directory perception, label clarity, transparency, and follow-through. Address these before scaling beta.*
+*Personas are designed to expose where Optcause will fail in real use: link quality, thin directory perception, label clarity, transparency, and follow-through. Address these before scaling beta.*

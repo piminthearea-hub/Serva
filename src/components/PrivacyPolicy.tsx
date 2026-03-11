@@ -9,29 +9,29 @@ export function PrivacyPolicy() {
         <AccessibilityBar />
         <header className="legal-header">
           <Link to="/" className="legal-back">
-            ← Back to Chadwit NYC
+            ← Back to Optcause
           </Link>
-          <h1>Chadwit Privacy Policy</h1>
+          <h1>Optcause Privacy Policy</h1>
           <p className="legal-intro">
-            This policy describes how Chadwit may collect, use, and share information when you use the Chadwit NYC directory.
+            This policy describes how Optcause may collect, use, and share information when you use the Optcause directory.
           </p>
           <p className="legal-meta">
-            <span className="font-medium">Effective Date:</span> March 2026. References to &quot;Chadwit,&quot; &quot;we,&quot; or &quot;us&quot; refer to the Chadwit service and its operators.
+            <span className="font-medium">Effective Date:</span> March 2026. References to &quot;Optcause,&quot; &quot;we,&quot; or &quot;us&quot; refer to the Optcause service and its operators.
           </p>
         </header>
 
         <article className="legal-article">
           <section>
-            <h2>What Chadwit is</h2>
+            <h2>What Optcause is</h2>
             <p>
-              Chadwit is a curated directory of nonprofit and community organizations in New York City. The directory is informational; we do not run job boards or collect application data.
+              Optcause is a curated directory of nonprofit and community organizations in New York City. The directory is informational; we do not run job boards or collect application data.
             </p>
           </section>
 
           <section>
             <h2>Information we may collect</h2>
             <p>
-              Use of the directory itself typically does not require an account. We may collect information you voluntarily send (e.g. via the Chadwit contact form), such as name, email, and message content, to respond to inquiries, suggestions, or listing updates.
+              Use of the directory itself typically does not require an account. We may collect information you voluntarily send (e.g. via the Optcause contact form), such as name, email, and message content, to respond to inquiries, suggestions, or listing updates.
             </p>
             <p>
               We may use cookies or similar technologies for basic site operation (e.g. preferences). We do not sell your personal information.
@@ -56,7 +56,7 @@ export function PrivacyPolicy() {
             <h2>Updates and contact</h2>
             <p>
               We may update this policy from time to time. For questions or privacy-related requests, please use the{" "}
-              <a href={CONTACT_FORM_URL} target="_blank" rel="noopener noreferrer">Chadwit contact form</a>.
+              <a href={CONTACT_FORM_URL} target="_blank" rel="noopener noreferrer">Optcause contact form</a>.
             </p>
           </section>
         </article>

@@ -1,5 +1,5 @@
 /**
- * Chadwit NYC — Curated seed data for active nonprofit and community organizations.
+ * Optcause — Curated seed data for active nonprofit and community organizations.
  * Use for MVP; migrate to backend when ready.
  * lastUpdated: 2026-03-06
  *
