@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+/* Chadwit NYC — directory theme. Light + dark. */
+:root {
+  --bg-page: #FFFFFF;
+  --bg-surface: #FFFFFF;
+  --border-default: #E5DEE8;
+  --text-primary: #1F1720;
+  --text-muted: #7A7585;
+  --action-primary: #9B8BB5;
+  --action-primary-hover: #8B7BAB;
+  --accent-roseSoft: #EDE8F2;
+  --radius-lg: 12px;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  /* Aliases for Directory.css */
+  --bg: var(--bg-page);
+  --surface: var(--bg-surface);
+  --border: var(--border-default);
+  --text: var(--text-primary);
+  --muted: var(--text-muted);
+  --radius: var(--radius-lg);
+  --accent: var(--action-primary);
+  --accent-dim: var(--accent-roseSoft);
+  --text-inverse: #FFFFFF;
+  --featured-bg: #F5F0FA;
+}
+
+[data-theme="dark"] {
+  --bg-page: #120D12;
+  --bg-surface: #1A141A;
+  --border-default: #3A3542;
+  --text-primary: #F8EEF4;
+  --text-muted: #9E98A8;
+  --action-primary: #B8A8D0;
+  --action-primary-hover: #C8B8E0;
+  --accent-roseSoft: #3A3542;
+  --text-inverse: #1F1720;
+  --featured-bg: #241C24;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Base font size: 16px. Text-size options scale the root for accessibility. */
+html {
+  font-size: 100%;
+}
+
+[data-text-size="large"] {
+  font-size: 112.5%;
+}
+
+[data-text-size="x-large"] {
+  font-size: 125%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Legal pages (Terms, Privacy) */
+.legal-page {
+  min-height: 100vh;
+  padding: 2rem 1.5rem 4rem;
+  background: var(--bg);
+  color: var(--text);
+}
+.legal-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.legal-header {
+  margin-bottom: 2rem;
+}
+.legal-back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.legal-back:hover {
+  color: var(--accent);
+}
+.legal-header h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+.legal-intro {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+  line-height: 1.5;
+}
+.legal-meta {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  margin: 0;
+}
+.legal-article section {
+  margin-top: 1.5rem;
+}
+.legal-article h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+.legal-article p {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 0 0 0.75rem;
+}
+.legal-article a {
+  color: var(--accent);
+}
+.legal-article a:hover {
+  text-decoration: underline;
+}
+
+/* Accessibility bar: theme + text size */
+.accessibility-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.accessibility-bar-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.accessibility-bar-label {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.accessibility-bar-buttons {
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+.accessibility-btn {
+  font: inherit;
+  font-size: 0.875rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.accessibility-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.accessibility-btn-active {
+  background: var(--accent);
+  color: var(--text-inverse);
+  border-color: var(--accent);
+}
+
+.accessibility-btn-active:hover {
+  background: var(--action-primary-hover);
+  color: var(--text-inverse);
+  border-color: var(--action-primary-hover);
+}
+
+.accessibility-btn-large {
+  font-size: 1rem;
+}
+
+.accessibility-btn-x-large {
+  font-size: 1.125rem;
+}
+
+.legal-inner .accessibility-bar {
+  margin-bottom: 1rem;
+}
